@@ -19,7 +19,7 @@
       		"--gpus=all"
 	],
 	"containerEnv": {
-		"DISPLAY": "host.docker.internal:0.0", //Aby działała gazebo i rviz2 trzeba uruchomić Xlaunch z "disable acces control"
+		"DISPLAY": "host.docker.internal:0.0", // gazebo i rviz2 trzeba uruchomić przez Xlaunch z "disable acces control"
 		"WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
 		"XDG_RUNTIME_DIR": "${localEnv:XDG_RUNTIME_DIR}",
 		"PULSE_SERVER": "${localEnv:PULSE_SERVER}",
